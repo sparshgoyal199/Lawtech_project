@@ -208,28 +208,28 @@
           -
           <span style="background:#7BC3EC; color:black; padding:4px 8px; border-radius:6px;box-shadow: 3px 3px 4px rgba(181, 181, 181, 1.5);">B</span>
           <span style="background:#B7F3F0; color:black; padding:4px 8px; border-radius:6px;box-shadow: 3px 3px 4px rgba(181, 181, 181, 1.5);">C</span>
-          = {{diff}}
+          = {{hypotenuse_base}}
         </div>
         <div style="border: 2px solid #ccc;border-radius: 10px;background: #F2F2F2;">
         <div class="math-box">
-          <div>{{AC}} - {{BC}} = {{diff}} &nbsp;&nbsp;&nbsp;&nbsp; {{AC}}² - {{BC}}² = {{AB}}²</div>
+          <div>{{hypotenuse}} - {{base}} = {{hypotenuse_base}} &nbsp;&nbsp;&nbsp;&nbsp; {{hypotenuse}}² - {{base}}² = {{perpendicular}}²</div>
           <div> <img src="{% static 'PythegoreanTriplet/images/arrow.png' %}" alt="arrow" class="arrow-img"></div>
       
-          <div>{{AB}}, {{BC}}, {{AC}} is a Pythagorean triplet</div>
+          <div>{{perpendicular}}, {{base}}, {{hypotenuse}} is a Pythagorean triplet</div>
         </div>
         </div>
         <div class="fraction-container">
           <span>(Sec <span style="background:#b3d8f1; color:black; padding:4px 8px; border-radius:6px;box-shadow: 3px 3px 4px rgba(181, 181, 181, 1.5);">C</span> + Cot <span style="background:#f79ba2; color:black; padding:4px 8px; border-radius:6px;box-shadow: 3px 3px 4px rgba(181, 181, 181, 1.5);">A</span>) =</span>
           <div class="fraction">
-            <div>{{AC}}</div>
+            <div>{{hypotenuse}}</div>
             <div class="line-by"></div>
-            <div>{{BC}}</div>
+            <div>{{base}}</div>
           </div>
           <span>&nbsp;+&nbsp;</span>
           <div class="fraction">
-            <div>{{AB}}</div>
+            <div>{{perpendicular}}</div>
             <div class="line-by"></div>
-            <div>{{BC}}</div>
+            <div>{{base}}</div>
           </div>
           
         </div>
@@ -254,9 +254,9 @@
         <div class="label point-a">A</div>
         <div class="label point-b">B</div>
         <div class="label point-c">C</div>
-        <div class="dimension ab-label">{{AB}} cm</div>
-        <div class="dimension bc-label">{{BC}} cm</div>
-        <div class="dimension ac-label">{{AC}} cm</div>
+        <div class="dimension ab-label">{{perpendicular}} cm</div>
+        <div class="dimension bc-label">{{base}} cm</div>
+        <div class="dimension ac-label">{{hypotenuse}} cm</div>
       </div>
       <div class="formulaBoxUltimate" >
       <div class="formula-table" style="border-radius: 10px 10px 0px 0px;">
